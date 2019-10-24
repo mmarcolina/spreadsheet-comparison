@@ -4,6 +4,7 @@ import openpyxl
 
 # creates dataframes for each of the documents
 # dataframes are a table or a two-dimensional array-like structure in which each column contains values of one variable and each row contains one set of values
+# change the workbook name values inside of df1 and df2 to compare whatever workbooks you'd like
 df1=pd.read_excel('HG_MSA_Copy.xlsx')
 df2=pd.read_excel('HGMSASeptember.xlsx')
 
